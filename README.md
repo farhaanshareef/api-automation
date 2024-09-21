@@ -22,8 +22,11 @@ pip install -r requirements.txt
 
 ### 3. Configure PyCharm
 Open PyCharm.
+
 Open the Project: Go to File > Open and select the project directory.
+
 Set Up Interpreter: Go to File > Settings > Project: <project_name> > Python Interpreter, and select the virtual environment you created.
+
 Run Configuration: You can create run configurations for different test scripts if needed.
 
 API Automation
