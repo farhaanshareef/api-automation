@@ -34,10 +34,15 @@ Test Files
 The API automation suite is divided into several test files, each focusing on different types of API requests:
 
 tests/post_user.py: Contains tests for creating a user.
+
 tests/update_user.py: Contains tests for updating a user.
+
 tests/patch_user.py: Contains tests for partially updating a user.
+
 tests/delete_user.py: Contains tests for deleting a user.
+
 tests/get_users.py: Contains tests for retrieving user data.
+
 Smoke Suite
 The smoke_suite.py file runs all the critical tests in sequence and generates an HTML report. The tests are executed in the following order:
 
