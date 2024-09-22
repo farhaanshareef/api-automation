@@ -58,6 +58,6 @@ The smoke_suite.py file runs all the critical tests in sequence and generates an
 
 Running the Tests
 
-To run the full suite and generate an HTML report:
+To run the suite and generate an HTML report:
 
-python smoke_suite.py --html= report/report.html
+pytest testSuite/smokesuite.py --html=reports/report.html
