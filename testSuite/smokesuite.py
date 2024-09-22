@@ -1,6 +1,4 @@
 import pytest
-
-# Import test classes from individual test files
 from test.post_user import TestCreateUser
 from test.update_user import TestUpdateUser
 from test.patch_user import TestPatchUser

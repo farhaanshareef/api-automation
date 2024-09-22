@@ -2,11 +2,6 @@ import requests
 from config.config import config
 from endpoint.endpoint import endpoint
 
-
-import requests
-from config.config import config
-from endpoint.endpoint import endpoint
-
 class TestCreateUser:
     def test_create_user(self):
         # Define the URL of the API endpoint
