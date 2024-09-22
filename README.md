@@ -47,10 +47,17 @@ Smoke Suite
 The smoke_suite.py file runs all the critical tests in sequence and generates an HTML report. The tests are executed in the following order:
 
 Create User Test: Tests user creation.
+
 Update User Test: Tests updating user information.
+
 Patch User Test: Tests partial updates to user information.
+
 Delete User Test: Tests user deletion.
+
 Get User Test: Tests retrieval of user data.
+
 Running the Tests
+
 To run the full suite and generate an HTML report:
+
 python smoke_suite.py --html= report/report.html
