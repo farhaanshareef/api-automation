@@ -46,15 +46,15 @@ tests/get_users.py: Contains tests for retrieving user data.
 Smoke Suite
 The smoke_suite.py file runs all the critical tests in sequence and generates an HTML report. The tests are executed in the following order:
 
-Create User Test: Tests user creation.
+1. Create User Test: Tests user creation.
 
-Update User Test: Tests updating user information.
+2. Update User Test: Tests updating user information.
 
-Patch User Test: Tests partial updates to user information.
+3. Patch User Test: Tests partial updates to user information.
 
-Delete User Test: Tests user deletion.
+4. Delete User Test: Tests user deletion.
 
-Get User Test: Tests retrieval of user data.
+5. Get User Test: Tests retrieval of user data.
 
 Running the Tests
 
